@@ -11,9 +11,9 @@ CSC871_FinalProject_SFSU_Fall2025
 
 ## Team Members
 
-- **Fayeeza** - Data & Infrastructure Lead
-- **Veronica** - Model Development Lead  
-- **Ratchagan** - Experiments & Analysis Lead
+- **Fayeeza** 
+- **Veronica** 
+- **Ratchagan**
 
 ---
 
@@ -65,36 +65,6 @@ for images, labels in train_loader:
     pass
 ```
 
----
-
-## Project Structure
-```
-CSC871_Final_Project/
-├── chest_xray/          # Dataset
-├── data_module.py       # Data loading
-├── create_val_split.py  # Validation split script
-├── requirements.txt     # Dependencies
-└── README.md           # This file
-```
-
----
-
-## Models to Test
-
-- Baseline CNN
-- ResNet-18 / ResNet-50
-- DenseNet-121
-- EfficientNet-B0
-- VGG-16
-
----
-
-## Important Notes
-
-- **Class Imbalance:** Dataset has 3:1 ratio (pneumonia:normal)
-- **Validation Set:** Original had only 16 images, we created new set with 782 images
-- **Image Size:** All images resized to 224×224
-- **Augmentation:** Training images have flip, rotation, and color jitter
 
 
 ---
